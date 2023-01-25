@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpromo"
+    tools:context=".MemberActivity">
+
+
+    <TextView
+        android:id="@+id/textmember1"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/yeseva_one"
+        android:text="Promo!!!"
+        android:textColor="#6F703A"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textmember2"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textmember1"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/buenard_bold"
+        android:text="Hanya Berlaku Setiap Weekend" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/voucher1"
+        android:layout_width="140dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="65dp"
+        android:layout_below="@id/textmember2"
+        app:cardCornerRadius="15dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/promo1"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/voucher2"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/voucher1"
+        app:cardCornerRadius="15dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/promo2"/>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_kembali2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_orange"
+        android:layout_below="@id/voucher2"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="72dp"
+        android:text="Keluar"/>
+</RelativeLayout>

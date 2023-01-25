@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Rasa Nusantara</string>
+    <string name="textmember1"> Anda sudah menjadi pelanggan setia kami. Anda berhak mendapat Voucher Discount. </string>
+    <string name="textmember2"> silahkan scan QR Code ini </string>
+</resources>

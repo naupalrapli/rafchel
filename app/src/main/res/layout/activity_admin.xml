@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="20dp"
+    tools:context=".AdminActivity">
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="85dp"
+        android:src="@drawable/logorafchel" />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo2"
+        android:layout_marginTop="50dp"
+        android:hint="Username"
+        android:background="@drawable/btn_white"/>
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtUser"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/btn_white"/>
+
+    <Button
+        android:id="@+id/btnmasuk1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPass"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_orange"
+        android:text="Masuk" />
+
+    <Button
+        android:id="@+id/btnkembali1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnmasuk1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_orange"
+        android:text="Kembali" />
+
+</RelativeLayout>
